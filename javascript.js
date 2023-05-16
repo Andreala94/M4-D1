@@ -2,13 +2,9 @@
 
 // function controlla(n1, n2) {
     
-//     if (n1 === 50 || n2 === 50) {
+//     if (n1 === 50 || n2 === 50 || n1 + n2 === 50) {
 //       return true;
-//     }
-   
-//     if (n1 + n2 === 50) {
-//       return true;
-//     }
+//     }else
     
 //     return false;
 //   }
@@ -21,7 +17,8 @@
 
 let array = ["ciao"]
 
-function stringa (array){
+function rimuoviCarattere (){
+    array.split()
     
 
 
