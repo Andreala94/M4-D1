@@ -15,10 +15,17 @@
 //? Crea una funzione che rimuova il carattere ad una specifica posizione da una stringa. Passa la stringa e la 
 //? e la poszione come parametri e ritorna la stringa modificata
 
-let array = ["ciao"]
+let stringa = [ciao]
 
 function rimuoviCarattere (){
-    array.split()
+    for (let i = 0; i < stringa.length; i++) {
+        if(stringa.includes("o")){
+            
+        }
+
+        
+        
+    }
     
 
 
