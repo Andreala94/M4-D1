@@ -84,23 +84,43 @@
 // }
 // console.log(controllaNumeri());
 
-//? 7. Creare una funzione per trovare il tipo di un angol in cui gradi sono passati come parametro.
+//? 7. Creare una funzione per trovare il tipo di un angolo in cui i gradi sono passati come parametro.
 //? Angolo acuto: meo di 90° => ritorna "acuto"
 //? Angolo ottuso: tra i 90° e i 180° gradi => ritorna "ottuso"
 //? Angolo retto: 90° => ritorna "retto"
 //? Angolo piatto: 180° => ritorna "piatto"
 
-function angoli(){
-    switch (){
-        case x:
-            break;
-    }
+
+
+
+// function angoli(gradi){
+    
+//   if( gradi < 90 ){
+//     return "acuto"
+//   } else if( gradi > 90 && gradi < 180){
+//     return "ottuso"
+//   } else if (gradi == 90){
+//     return "retto"
+//   }else if (gradi == 180){
+//     return "piatto"
+//   }
+    
+// }
+
+
+// console.log(angoli(180));
+
+
+//? 8. Crea una funzione che crei un acronimo a partire da una frase. Es. "Fabbrica Italiana Automobili Torino" deve ritornare "Fiat"
+
+function casaMadre(frase){
+ let parole = frase.split(" ")
+ let acronimo = ""
+  
+ for (const parola of parole )  {
+  acronimo +=  parola.charAt(0)
+ } 
+  return acronimo
 }
 
-
-
-
-
-
-//? 8. Crea una funzione che crei un acronimo a partireda una frase. Es. "Fabbrica Italiana Automobili Torino" deve ritornare "Fiat"
-
+console.log(casaMadre("Fabbrica Italiana Automobili Torino"));
